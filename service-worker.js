@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sme-engage/precache-manifest.0a2ec39b977b6c1fcebc00fcd6a5cb31.js"
+  "/sme-engage/precache-manifest.acfb41372e7a44c10da609b215fb80a3.js"
 );
 
 self.addEventListener('message', (event) => {
