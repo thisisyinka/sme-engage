@@ -32,7 +32,7 @@ const Navbar = () => {
       <IconContext.Provider value={{ color: '#fff' }}>
         <div className="navbar">
           <div className="navbar-container container">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            <Link to="/sme-engage" className="navbar-logo" onClick={closeMobileMenu}>
               <MdChat className="navbar-icon" />
               SME ENGAGE
             </Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
             </div>
             <ul className={open ? 'nav-menu active' : 'nav-menu'}>
               <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                <Link to="/sme-engage" className="nav-links" onClick={closeMobileMenu}>
                   Home
                 </Link>
               </li>
