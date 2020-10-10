@@ -3,6 +3,7 @@ import './style.css';
 import fire from '../../../fire';
 import Login from './Login';
 import Welcome from './Welcome';
+require('dotenv').config();
 
 function SignUpForm() {
   const [user, setUser] = useState('');
@@ -58,7 +59,7 @@ function SignUpForm() {
             break;
         }
       });
-      setSuccessfulMsg('Your account has been successfully created!');
+    setSuccessfulMsg('Your account has been successfully created!');
   };
 
   const handleLogout = () => {
