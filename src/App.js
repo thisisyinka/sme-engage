@@ -11,8 +11,8 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/sign-up" component={SignUp} />
+        <Route path="/sme-engage" exact component={Home} />
+        <Route path="/sme-engage/sign-up" component={SignUp} />
       </Switch>
       <Footer />
     </Router>
