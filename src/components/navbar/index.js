@@ -47,11 +47,11 @@ const Navbar = () => {
               </li>
               <li className="nav-btn">
                 {button ? (
-                  <Link to="/signup" className="btn-Link">
+                  <Link to="/sme-engage/sign-up" className="btn-Link">
                     <Button buttonStyle="btn--outline">SIGN UP/ LOGIN</Button>
                   </Link>
                 ) : (
-                  <Link to="/signup" className="btn-link" onClick={closeMobileMenu}>
+                  <Link to="/sme-engage/sign-up" className="btn-link" onClick={closeMobileMenu}>
                     <Button buttonStyle="btn--outline" buttonSize="btn--mobile">
                       SIGN UP / LOGIN
                     </Button>
